@@ -38,7 +38,7 @@ export default function RoomFilter({ rooms }) {
 
     return (
         <section className="filter-container">
-            <Title title="serarch rooms" />
+            <Title title="search rooms" />
             <form className="filter-form">
                 {/*select type */}
                 <div className="form-group">
