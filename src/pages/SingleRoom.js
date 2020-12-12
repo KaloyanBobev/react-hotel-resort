@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import defaultBcg from '../images/room-1.jpeg';
-
 import Banner from '../components/Banner';
 import { RoomContext } from '../Context';
 import StyledHero from '../components/StyledHero';
@@ -16,10 +15,6 @@ export default class SingleRoom extends React.Component {
         }
     }
     static contextType = RoomContext;
-
-    // componentDidMount() {
-
-    // }
 
     render() {
         const { getRoom } = this.context;
